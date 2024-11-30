@@ -1,0 +1,5 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1732967502950,40,Переход на главную страницу http://localhost:8000/client/hall.php,200,OK,Thread Group 1-1,text,true,,5127,510,1,1,http://localhost:8000/client/hall.php,36,0,19
+1732967508221,10,Переход на бронирование http://localhost:8000/client/payment.php,200,OK,Thread Group 1-1,text,true,,5063,565,1,1,http://localhost:8000/client/payment.php,10,0,3
+1732967510902,5,Получение QR http://localhost:8000/client/scripts/sale_save.php,200,OK,Thread Group 1-1,text,true,,338,575,1,1,http://localhost:8000/client/scripts/sale_save.php,5,0,0
+1732967502898,55,Test,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,10528,1650,1,1,null,51,7960,22
